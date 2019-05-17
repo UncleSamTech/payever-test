@@ -1,0 +1,19 @@
+{
+  "name": "payever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scrape.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.7.1",
+    "express": "^4.17.0",
+    "jade": "^1.11.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0"
+  }
+}
